@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color:#fff;
+  box-sizing: border-box;
+
+}
+
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../public/fondo1.jpg);
+  background-position: center;
+  background-size: cover;
+  row-gap: 80px;
+}
+
+h1{
+  font-family: 'PT Sans';
+  font-size: 1.8rem;
+  text-shadow: 0.2em 0.15em #5e5e5e88;
+  text-align: center;
+  padding-top: 10hv;
+}
+
+.text{
+  padding: 0 40px;
+  min-height: 20vh;
+  font-size: 1.2rem;
+  font-family: 'PT Sans';
+  color: #807e7e;
+  text-align: center;
+  z-index: 2;
+}
+
+.boton{
+  position: fixed;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  width: 120px;
+  height: 40px;
+  border: 3px #fff solid;
+  border-radius: 10px;
+  font-family: 'PT Sans';
+  color: #6b6b6b;
+  background-color: #f1f1f188;  
+}
+
+.rectangulo{
+  width: 320px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hojita{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width:479px) and (max-width:768px) {
+
+  h1{
+    font-size: 50px;
+  }
+
+  .text{
+    padding: 0px 180px;
+    font-weight: bold;
+  }
+
+  .rectangulo{
+    width: 430px;
+  }
+
+  .hojita{
+    height: 200px;
+    
+  }
+  
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+  .conteiner{
+    row-gap: 150px;
+  }
+
+  h1{
+    font-size: 65px;
+    padding-bottom: 10vh;
+  }
+
+  .text{
+   padding: 0 180px 320px;
+  }
+
+  .rectangulo{
+    width: 65%;
+  }
+
+  .hojita{
+    height: 15%;
+  }
+
+}
