@@ -21,7 +21,6 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-image: url(../public/fondo1.jpg); */
   background-position: center;
   background-size: cover;
   row-gap: 80px;
@@ -53,11 +52,11 @@ h1{
   z-index: 5;
   width: 120px;
   height: 40px;
-  border: 3px #fff solid;
+  border: 3px #010101 solid;
   border-radius: 10px;
   font-family: 'PT Sans';
-  color: #6b6b6b;
-  background-color: #f1f1f188;  
+  color: #000000;
+  background-color: #ffffff44;  
 }
 
 .rectangulo{
@@ -75,32 +74,15 @@ h1{
   object-position: center;
 }
 
-@media (min-width:479px) and (max-width:768px) {
 
-  h1{
-    font-size: 50px;
-  }
+/* Aqui empienzan las media cueri */
 
-  .text{
-    padding: 0px 180px;
-    font-weight: bold;
-  }
 
-  .rectangulo{
-    width: 430px;
-  }
-
-  .hojita{
-    height: 200px;
-    
-  }
-  
-}
-
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:769px) {
 
   .conteiner{
-    row-gap: 150px;
+    row-gap: 100px;
+
   }
 
   h1{
@@ -109,15 +91,44 @@ h1{
   }
 
   .text{
-   padding: 0 180px 320px;
+    padding: 0;
+    width: 640px;
+    height: 320px;
+    color: #000000;
+    justify-content: center;
+    padding-bottom: 20px;
   }
+  
+  .frase{
+    font-size: 27px;
 
+  }
+  
   .rectangulo{
-    width: 65%;
+    width: 650px;
+
   }
 
   .hojita{
-    height: 15%;
+    height: 270px;
+    width: 650px;
+  }
+
+  .boton{
+    top: 85%;
+    height: 65px;
+    padding: 7px 14px;
+    width: 180px;
+    font-size: 20px;
   }
 
 }
+
+ /*medias queris de laptop  */
+
+ /* @media (min-width:991px){
+
+
+
+
+ } */

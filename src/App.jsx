@@ -20,6 +20,7 @@ function App() {
       <ShownPhrase 
       frase={content}
       />
+      
       <Boton
       setContet={setContet}
       setfondo={setfondo}
