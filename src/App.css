@@ -23,7 +23,6 @@ body{
   justify-content: center;
   background-position: center;
   background-size: cover;
-  row-gap: 80px;
 }
 
 h1{
@@ -31,15 +30,15 @@ h1{
   font-size: 1.8rem;
   text-shadow: 0.2em 0.15em #5e5e5e88;
   text-align: center;
-  padding-top: 10hv;
+  margin-bottom: 80px;
 }
 
 .text{
-  padding: 0 40px;
+  padding: 0 40px 130px;
   min-height: 20vh;
   font-size: 1.2rem;
   font-family: 'PT Sans';
-  color: #807e7e;
+  color: #363535;
   text-align: center;
   z-index: 2;
 }
@@ -50,13 +49,15 @@ h1{
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 5;
-  width: 120px;
-  height: 40px;
+  width: 150px;
+  height: 60px;
   border: 3px #010101 solid;
   border-radius: 10px;
   font-family: 'PT Sans';
   color: #000000;
   background-color: #ffffff44;  
+  font-size: 18px;
+  
 }
 
 .rectangulo{
