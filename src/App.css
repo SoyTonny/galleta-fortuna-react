@@ -23,6 +23,7 @@ body{
   justify-content: center;
   background-position: center;
   background-size: cover;
+  row-gap: 80px;
 }
 
 h1{
@@ -34,7 +35,7 @@ h1{
 }
 
 .text{
-  padding: 0 40px 130px;
+  padding: 0 40px 210px;
   min-height: 20vh;
   font-size: 1.2rem;
   font-family: 'PT Sans';
@@ -88,16 +89,15 @@ h1{
 
   h1{
     font-size: 65px;
-    padding-bottom: 10vh;
+    padding-bottom: 1vh;
   }
 
   .text{
-    padding: 0;
+    padding: 0 0 155px;
     width: 640px;
     height: 320px;
     color: #000000;
     justify-content: center;
-    padding-bottom: 20px;
   }
   
   .frase{
@@ -122,14 +122,4 @@ h1{
     width: 180px;
     font-size: 20px;
   }
-
 }
-
- /*medias queris de laptop  */
-
- /* @media (min-width:991px){
-
-
-
-
- } */
