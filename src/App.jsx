@@ -11,7 +11,7 @@ function App() {
   const [content, setContet] = useState(random(arrayPhrase))
   const [fondo, setfondo] = useState(random(arrayImg))
   
-  const styleChange = {backgroundImage: `url(../public/fondo${fondo}.jpg)`}
+  const styleChange = {backgroundImage: `url(../img/fondo${fondo}.jpg)`}
   
   return (
     <>
@@ -26,7 +26,7 @@ function App() {
       />
 
       <div className='rectangulo'>
-      <img src='../public/rectangle1.svg' className='hojita'></img>
+      <img src='../img/rectangle1.svg' className='hojita'></img>
       </div>
 
       </div>
